@@ -1,0 +1,24 @@
+.qiuubi-art-card {
+  width: 20%;
+  height: 100%;
+  margin: 10px;
+  padding-top: 20px;
+  background-color: #8fe1ef;
+  border-radius: 10px;
+  font-size: 1rem;
+  text-align: center;
+  transition-duration: 1s;
+}
+
+.qiuubi-art-card-image {
+  background-color: #ffffff;
+  width: 80%;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.qiuubi-art-card:hover {
+  transform: translate(-10px, -10px);
+  box-shadow: 10px 10px #72b4bf;
+  position: relative;
+}

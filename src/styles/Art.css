@@ -1,0 +1,10 @@
+.qiuubi-portfolio-art {
+  background-color: #000000;
+}
+h1,
+h3 {
+  color: #ffffff;
+}
+.qiuubi-art-container {
+  display: flex;
+}
