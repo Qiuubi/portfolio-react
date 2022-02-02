@@ -10,15 +10,33 @@
   transition-duration: 1s;
 }
 
-.qiuubi-art-card-image {
+.qiuubi-art-card-image > img {
   background-color: #ffffff;
   width: 80%;
   height: 300px;
   margin: 0 auto;
+  border-radius: 10px;
+}
+
+.qiuubi-art-card-button {
+  transition-duration: 1s;
+  color: #8fe1ef;
+  padding: 10px;
+  width: 50%;
+  background-color: #ffffff;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  border-radius: 50px;
+}
+
+.qiuubi-art-card-button:hover {
+  background-color: #ecf5f6;
+  color: #72b4bf;
+  cursor: pointer;
 }
 
 .qiuubi-art-card:hover {
   transform: translate(-10px, -10px);
-  box-shadow: 10px 10px #72b4bf;
+  box-shadow: 10px 10px #71d7df;
   position: relative;
 }

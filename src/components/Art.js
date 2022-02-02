@@ -4,6 +4,8 @@ import FromNightCityHighway from "./Art/FromNightCityHighway"
 import ExploringTheStars from "./Art/ExploringTheStars";
 import AboveTheBeyond from "./Art/AboveTheBeyond";
 import classNames from "../datas/classNames";
+import Mosaique from "./Mosaique";
+
 import '../styles/Art.css';
 
 function Art(props){
@@ -11,13 +13,18 @@ function Art(props){
     return(
         <div className={classNames.art}>
             <h1>Je suis le composant Art</h1>
-            <section className="qiuubi-art-themes">
-                <WatchingTheSky></WatchingTheSky>
+            <section className={classNames.themes}>
+                <section className={ classNames.wts }>
+                    <WatchingTheSky></WatchingTheSky>
+                    <Mosaique ></Mosaique>
+                </section>
+                
                 <UnderTheAbyss></UnderTheAbyss>
                 <FromNightCityHighway></FromNightCityHighway>
                 <ExploringTheStars></ExploringTheStars>
                 <AboveTheBeyond></AboveTheBeyond>
             </section>
+            
         </div>
     );
 }

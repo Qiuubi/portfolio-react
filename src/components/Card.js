@@ -1,16 +1,15 @@
 import "../styles/Card.css";
 import classNames from "../datas/classNames";
 
-function Card() {
+function Card(props) {
   return (
     <div className={classNames.card}>
       <div class={ classNames.card_img }>
-        <img src="#" alt="dessin" />
+        <img src={props.img} alt="dessin" />
       </div>
-      <p>Titre</p>
-      <p>Theme</p>
-      <p>Music</p>
-      <p>En savoir plus</p>
+      <p>{props.title}</p>
+      <p>{props.music}</p>
+      <p class={ classNames.card_btn }>En savoir plus</p>
     </div>
   );
 }
