@@ -1,0 +1,64 @@
+.qiuubi-portfolio-login {
+  background: rgb(40, 34, 58);
+  background: linear-gradient(
+    0deg,
+    rgba(40, 34, 58, 1) 0%,
+    rgba(141, 133, 164, 1) 100%
+  );
+  padding: 10px;
+}
+
+.qiuubi-portfolio-login-form {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  background: rgb(77, 65, 113);
+  background: linear-gradient(
+    0deg,
+    rgba(77, 65, 113, 1) 0%,
+    rgba(141, 133, 164, 1) 100%
+  );
+  border-radius: 10px;
+}
+
+.qiuubi-portfolio-login-form-block {
+  margin: 10px;
+}
+
+.qiuubi-portfolio-login-form-label {
+  color: white;
+  display: block;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.qiuubi-portfolio-login-form-input,
+.qiuubi-portfolio-login-button {
+  border: 3px solid #b6b3c0;
+  border-radius: 100px;
+  font-size: 1rem;
+}
+
+.qiuubi-portfolio-login-form-input {
+  display: block;
+  width: 250px;
+  padding: 10px;
+  color: #716a83;
+}
+
+.qiuubi-portfolio-login-button {
+  transition-duration: 1s;
+  padding: 15px;
+  background-color: #716a83;
+  color: #b6b3c0;
+}
+
+.qiuubi-portfolio-login-button:hover {
+  cursor: pointer;
+  padding: 15px;
+  border: 3px solid #716a83;
+  background-color: #b6b3c0;
+  color: #716a83;
+}

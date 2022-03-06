@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Cantarell&display=swap");
+
+* {
+  font-family: "Heebo", sans-serif;
+}
+
+/* Header */
+
+.qiiubi-porfolio-header {
+  background-color: #8d85a4;
+  padding: 10px;
+}
+
+.qiuubi-portfolio-main-title {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+.qiuubi-portfolio-nav-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+.qiuubi-portfolio-nav-block {
+  margin: 0 auto;
+}
+
+.qiuubi-portfolio-nav-block-link {
+  color: #ffffff;
+  padding: 20px 40px;
+  border: 2px solid #8d85a4;
+  border-radius: 50px;
+  text-decoration: none;
+  transition-duration: 1s;
+}
+
+.qiuubi-portfolio-nav-block-link:hover {
+  color: #716a83;
+  background-color: #b6b1c5;
+  border: 2px solid #ffffff;
+  border-radius: 50px;
+}
+
+/* Footer */

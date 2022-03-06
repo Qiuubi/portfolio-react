@@ -1,4 +1,4 @@
-import classNames from "../../datas/classNames";
+import classNames from "../../datas/ArtClassNames";
 
 function ExploringTheStars () {
     return(

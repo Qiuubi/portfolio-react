@@ -1,16 +1,7 @@
+/* I - PRINCIPES COMMUNS */
 .qiuubi-art-themes {
   margin-top: 10px;
-}
-
-.qiuubi-art-theme-watching-the-sky {
-  background: rgb(34, 193, 195);
-  background: linear-gradient(
-    0deg,
-    rgba(34, 193, 195, 1) 0%,
-    rgba(165, 231, 242, 1) 100%
-  );
-  padding: 10px;
-  border-radius: 50px;
+  margin-bottom: 100px;
 }
 
 .qiuubi-art-theme-title {
@@ -22,24 +13,14 @@
   padding: 10px;
 }
 
-.qiuubi-art-mosaique {
-  margin-top: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.qiuubi-art-block-mosaique {
-  background-color: #ffffff;
-  width: 200px;
-  height: 200px;
-  margin: 20px;
-  transition-duration: 1s;
-}
-
-.qiuubi-art-block-mosaique:hover {
-  transform: translate(-10px, -10px);
-  box-shadow: 10px 10px #72b4bf;
-  position: relative;
-  cursor: pointer;
+/* II - WATCHING THE SKY */
+.qiuubi-art-theme-watching-the-sky {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(165, 231, 242, 1) 100%
+  );
+  padding: 10px;
+  border-radius: 50px;
 }

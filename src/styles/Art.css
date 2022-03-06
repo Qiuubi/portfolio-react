@@ -1,10 +1,22 @@
 .qiuubi-portfolio-art {
   background-color: #000000;
+  padding: 20px;
 }
 h1,
 h3 {
   color: #ffffff;
 }
+.qiuubi-art-main-title {
+  text-align: center;
+}
 .qiuubi-art-container {
+  padding: 10px;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.slick-dots li button::before,
+.slick-dots li.slick-active button::before {
+  color: white;
 }
